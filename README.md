@@ -1,12 +1,10 @@
-# super-cashier
-Python Project Pacmann
+# PYTHON PROJECT KASIR MANDIRI
+Fahmi Ghifarie
 # Tentang
 Self-service cashier sederhana dengan menggunakan bahasa pemrograman Python.
 
 ## Latar Belakang
-- Ketika berjualan barang akan sangat menyita waktu jika harus mencatat barang pembelian dan menghitung keseluruhan harga yang harus dibayar dari pembeli secara manual, misalnya di selembar kertas.
-- Ketika banyak pembeli yang datang sedangkan pelayanan yang tersedia untuk melayani sangat terbatas, maka pembeli harus menunggu terlebih dahulu agar bisa dilayani. Ini tentunya akan membuat kepuasan pembeli menjadi menurun
-- Diperlukannya sebuah sistem kasir yang dapat secara cepat dan tepat mencatat dan menghitung barang pembelian dari pembeli secara otomatis dan mandiri.
+Sistem kasir mandiri ini dibuat untuk memenuhi tugas akhir dalam kelas Python I dan Python II dari Pacmann. 
 
 ## Requirements/Objective
 - Membuat proses menyelesaikan permasalahan kasir self-service untuk membantu pedagang berjualan.
