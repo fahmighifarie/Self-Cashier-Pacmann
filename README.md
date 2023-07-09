@@ -89,6 +89,11 @@ Customer ingin mengganti harga per item dari **kaos** yang sebelumnya 160000 men
 ![update_harga() ss](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/60c3c120-7c94-496e-9d80-4381c25398e8)
 
 
+### Test 8: check_out()
+Customer ingin mmemastikan pesanan yang dibeli dengan dikeluarkan tampilan dengan menggunakan metode `check_out()`.
+
+![update_harga()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/a6371a5d-bc33-4735-9b68-8083fce5bca5)
+![update_harga() ss](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/60c3c120-7c94-496e-9d80-4381c25398e8)
 
 ## Kesimpulan
 - Super cashier adalah program sederhana yang membantu penjual untuk menjual produknya secara efektif dan efisien.
