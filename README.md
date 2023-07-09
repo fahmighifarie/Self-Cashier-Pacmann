@@ -6,16 +6,15 @@ Sistem kasir mandiri ini dibuat untuk memenuhi tugas akhir dalam kelas Python I 
 Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemilik toko yang dimana ingin mengurangi kekeliruan para kasir yang menghitung pembayaran secara manual karena kecerobohan ini disebkan beberapa hal yang pertama adalah kurangnya jumlah karyawan yang dapat meng-handle transaksi kedua semakin lama karyawan bekerja biasanya konsentrasi para karyawan akan menurun. Maka dari itu dibuatkan sistem kasir mandiri ini agar pembeli dapat secara langsung menambahkan item yang dibeli, mengubah harga item yang dibeli dan mengubah jumlah item yang dibeli juga sekaligus dapat menjalankan total biaya yang harus didapatkan dan beberapa diskon menarik di dalamnya.
 
 # Fitur/Requirements
-- Membuat proses menyelesaikan permasalahan kasir self-service untuk membantu pedagang berjualan.
-- Membuat proses untuk `menambahkan barang` belanjaan.
-- Membuat proses untuk `menghapus barang` belanjaan.
-- Membuat proses untuk `edit nama` barang belanjaan.
-- Membuat proses untuk `edit jumlah` barang belanjaan. 
-- Membuat proses untuk `edit harga` barang belanjaan.
-- Membuat proses untuk `menghitung total harga` barang belanjaan.
-- Membuat proses untuk `menghitung diskon` barang belanjaan.
-- Membuat proses untuk `mengosongkan barang` belanjaan.
-- Mengecek barang belanjaan dengan `menampilkan seluruh barang belanjaan`.
+- Class `Transaksi_123` untuk menghimpun seluruh kegiatan kasir mandiri
+- Membuat fungsi `tambah_barang` untuk menambahkan barang
+- Membuat fungsi `update_nama` untuk mengganti nama barang
+- Membuat fungsi `update_harga` untuk mengganti harga barang
+- Membuat fungsi `update_jumlah` untuk mengganti jumlah barang
+- Membuat fungsi `delete` untuk menghapus barang
+- Membuat fungsi `reset` untuk me-reset transaksi
+- Membuat fungsi `check_out` untuk menampilkan belanja
+- Membuat fungsi `harga_total` untuk menghitung total semua belanja
 
 ## Flowchart
 ![Untitled Diagram](https://user-images.githubusercontent.com/24706517/210150924-1bea1e4e-c470-417c-9b0a-7e93188c96c8.jpg)
@@ -117,32 +116,3 @@ _Setelah harga diupdate_
 ## Future Work
 - Membuat GUI (_Graphical User Interface_)
 - Membuat sistem pembayaran yang terintegrasi dengan sistem kasir
-0 comments on commit c07ef9e
-@fahmighifarie
- 
-Add heading textAdd bold text, <Ctrl+b>Add italic text, <Ctrl+i>
-Add a quote, <Ctrl+Shift+.>Add code, <Ctrl+e>Add a link, <Ctrl+k>
-Add a bulleted list, <Ctrl+Shift+8>Add a numbered list, <Ctrl+Shift+7>Add a task list, <Ctrl+Shift+l>
-Directly mention a user or team
-Reference an issue, pull request, or discussion
-Add saved reply
-Leave a comment
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
-Styling with Markdown is supported
- You’re not receiving notifications from this thread.
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Repository search results · GitHub 
