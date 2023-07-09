@@ -42,8 +42,9 @@ Pengujian dijalankan pada modul `testcase.py` dimana pada modul `testcase.py` in
 
 ### Test 1: tambang_barang()
 Customer ingin menambahkan tiga item baru menggunakan method `tambang_barang()`. 
-![af6367f8-fc1b-4812-8737-61371bd02cab](https://user-images.githubusercontent.com/24706517/210150963-e800e75a-c65e-4387-816d-628d746e6045.png)
-![88d2953e-9810-44fd-8079-f9ccbdf82d5e](https://user-images.githubusercontent.com/24706517/210150970-996887d5-7136-4b6a-a874-3aad202ece9b.png)
+
+![screenshoot tambah_barang()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/89e2338e-1093-47e2-9354-2c9e4b32fe67)
+
 
 
 ### Test 2: delete_item()
