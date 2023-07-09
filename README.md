@@ -35,9 +35,8 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 	2. Jika di atas Rp 300.000 diskon sebesar 8%
 	3. Jika di atas Rp 500.000 diskon sebesar 10%
 
-## Demonstrasi Code
-Membuat Customer1 dengan code `Customer1 = Transaction()`
-![7cdd6702-2a16-4135-b6e8-1da2e99d8932](https://user-images.githubusercontent.com/24706517/210150937-b8ca9f67-2b97-4bab-bae6-39cd9c7cb746.png)
+## Contoh Pengujian
+Pengujian dijalankan pada modul `testcase.py` dimana pada modul `testcase.py` ini memanggil modul `modulkasir.py`. Lalu diboatkan object menggunakan `transaksi1 = Transaksi_123()`. Untuk contoh dapat dilihat sebagai berikut: 
 
 ### Test 1: add_item()
 Customer ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
