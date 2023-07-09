@@ -57,10 +57,8 @@ Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibela
 ![968e3200-3384-4b00-908c-408cdf120261](https://user-images.githubusercontent.com/24706517/210151004-7595102c-2295-4c95-aa2b-d371ee05f86b.png)
 
 
-### Test 4: total_price_print()
-Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method `total_price_print()`. Sebelum mengeluarkan output total belanja akan menampilkan item - item yang dibeli. Item yang ditambahkan adalah sebagai berikut:
-- Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
-- Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
+### Test 4: harga_total()
+Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method `harga_total()`. 
 
 **Output:**
 ![af6367f8-fc1b-4812-8737-61371bd02cab](https://user-images.githubusercontent.com/24706517/210151020-c3fa620b-f6ad-4daa-8585-ca674e7bf5ab.png)
