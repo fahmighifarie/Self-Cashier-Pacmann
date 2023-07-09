@@ -84,8 +84,13 @@ Customer ingin mengganti Quantity dari **Ayam Goreng Balado** yang sebelumnya 2 
 _Setelah qty diupdate_
 ![df029b88-1602-440c-85b8-567e5a8f6724](https://user-images.githubusercontent.com/24706517/210151112-0cdbbe87-1dad-491e-8add-1dc2558a3ee7.png)
 
-### Test 7: update_item_price()
+### Test 7: update_harga()
 Customer ingin mengganti harga per item dari **kaos** yang sebelumnya 160000 menjadi 75000 per item-nya dengan metode `update_harga()`.
+
+![update_harga()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/a6371a5d-bc33-4735-9b68-8083fce5bca5)
+![update_harga() ss](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/60c3c120-7c94-496e-9d80-4381c25398e8)
+
+
 
 **Output**:
 ![df029b88-1602-440c-85b8-567e5a8f6724](https://user-images.githubusercontent.com/24706517/210151119-8ff07d98-9a3e-4898-8c3d-340e39dc7226.png)
