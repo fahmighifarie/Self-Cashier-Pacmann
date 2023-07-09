@@ -60,10 +60,9 @@ Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibela
 ### Test 4: harga_total()
 Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method `harga_total()`. 
 
-**Output:**
-![af6367f8-fc1b-4812-8737-61371bd02cab](https://user-images.githubusercontent.com/24706517/210151020-c3fa620b-f6ad-4daa-8585-ca674e7bf5ab.png)
-![88d2953e-9810-44fd-8079-f9ccbdf82d5e](https://user-images.githubusercontent.com/24706517/210151025-119c5f17-9b46-4753-9791-073efe76f673.png)
-![b0120508-12f2-4a94-a756-8b575d4fc43c](https://user-images.githubusercontent.com/24706517/210151035-85c815ce-e420-4000-8891-e1407219fa50.png)
+![harga_total()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/bb9e4933-55bc-47f9-b0bc-e9908428f276)
+![ss_harga_total()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/a18b4d28-9570-4f33-bc75-a97a97aeb6eb)
+
 
 ### Test 5: update_nama()
 Customer ingin mengganti nama **celana** yang terlanjur ditambahkan menggunakan metode `update_name()` sehingga nama item tersebut menjadi **kaos**
