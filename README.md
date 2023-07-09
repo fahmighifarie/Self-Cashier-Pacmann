@@ -7,14 +7,14 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 
 # Fitur/Requirements
 - Class `Transaksi_123` untuk menghimpun seluruh kegiatan kasir mandiri
-- Membuat method `tambah_barang` untuk menambahkan barang
-- Membuat method `update_nama` untuk mengganti nama barang
-- Membuat method `update_harga` untuk mengganti harga barang
-- Membuat method `update_jumlah` untuk mengganti jumlah barang
-- Membuat method `delete` untuk menghapus barang
-- Membuat method `reset` untuk me-reset transaksi
-- Membuat method `check_out` untuk menampilkan belanja
-- Membuat method `harga_total` untuk menghitung total semua belanja
+- Membuat fungsi `tambah_barang` untuk menambahkan barang
+- Membuat fungsi `update_nama` untuk mengganti nama barang
+- Membuat fungsi `update_harga` untuk mengganti harga barang
+- Membuat fungsi `update_jumlah` untuk mengganti jumlah barang
+- Membuat fungsi `delete` untuk menghapus barang
+- Membuat fungsi `reset` untuk me-reset transaksi
+- Membuat fungsi `check_out` untuk menampilkan belanja
+- Membuat fungsi `harga_total` untuk menghitung total semua belanja
 
 ## Flowchart
 ![Flowchart Diagram](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/958e1d18-0224-4ec4-b36a-748d5260b563)
@@ -23,17 +23,15 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 Semua fungsi berikut terdapat di dalam class bernama `Transaction_123` pada file `main.py`:
 
 #### Method
-- `add_item`. Menambahkan barang dengan format `add_item([item_name, quantity, price_per_item])` ke dalam variable `items` di dalam class. Contoh: `add_item(['Ayam', 12, 15_000])`
-- `delete_item`. Menghapus barang berdasarkan nama di dalam `items` jika tersedia dengan format `delete_item(item_name)`. Contoh: `delete_item('Ayam')`
-- `update_item_name`. Mengganti nama barang saat ini dengan nama barang yang baru jika barang yang disebutkan tersedia dengan format `update_item_name(old_name, new_name)`. Contoh: `update_item_name('Ayam', 'Ayam Goreng')`
-- `update_item_qty`. Mengganti jumlah pesanan barang jika barang yang disebutkan tersedia dengan format `update_item_name(item_name, new_qty)`. Contoh: `update_item_qty('Ayam', 20)`.
-- `update_item_price`. Mengganti harga per item barang jika barang yang disebutkan tersedia dengan format `update_item_price(item_name, new_price)`. Contoh `update_item_price('Ayam', 30_000)`
-- `calculate_total_price`. Menghitung harga total semua barang.
-- `check_order`. Menampilkan semua barang yang telah ditambahkan beserta dengan total harga keseluruhan.
-- `reset_transaction`. Mengosongkan semua barang sekaligus yang telah ditambahkan.
-- `total_price_print`. Menampilkan seluruh barang beserta total harga tiap barang, discount, dan total setelah diskon.
-
-#### Generic Function
+- `__init__(self)`. Menginisiasi variable utama pada sebuah class. Dalam hal ini adalah variable `self.item = {'Nama Item': [], 'Jumlah': [], 'Harga Item': [],"Harga": []}` yang dinisiasi.
+- `tambah_barang()`. Fungsi ini dipanggil untuk menambahkan barang dimana setiap masukan dihimpun di suatu dictionary -> `self.item = {'Nama Item': [], 'Jumlah': [], 'Harga Item': [],"Harga": []}`
+- `update_nama()`. Fungsi ini dipanggil untuk mengganti `nama_item` dimana `nama_item` yang akan diganti harus diinput terlebih dulu lalu akan keluar perintah input untuk memasukan `nama_item_baru`.
+- `update_harga()`. Mengganti harga per item barang jika barang yang disebutkan tersedia dengan masukan yang diminta adalah `nama_item` lalu input `harga_baru`
+- `update_jumlah()`. Mengganti jumlah pesanan barang jika barang yang disebutkan tersedia dengan masukan yang diminta adalah `nama_item` lalu input `jumlah_baru`
+- `delete()`. Mengapus satu item dari `self.item` dengan masukan `nama_item`
+- `reset()`. Mengosongkan semua barang sekaligus yang telah ditambahkan.
+- `check_out()`. Menampilkan semua item yang sudah dimasukan ke `self.item` tujuannya untuk mengecek ulang item yang sudah dibeli 
+- `harga_total`. Menampilkan seluruh barang beserta total harga tiap barang, discount, dan total setelah diskon.
 - `__init__`. Menginisiasi variable utama pada sebuah class. Dalam hal ini adalah variable `items` yang dinisiasi.
 - `calculate_discount`. Menghitung jika total keseluruhan harga barang memenuhi syarat diskon. Syarat diskon adalah sebagai berikut:
 	1. Jika di atas Rp 200.000 diskon sebesar 5%
