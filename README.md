@@ -45,13 +45,10 @@ Customer ingin menambahkan tiga item baru menggunakan method `tambang_barang()`.
 ![tambah_barang()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/962a881a-e05f-4f2b-9cfc-9b50b08fa9e5)
 ![image](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/318dd601-a76d-49f9-92dc-0580ab5f6a1a)
 
-
-
 ### Test 2: delete_item()
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggukan method `delete()` untuk menghapus item. Item yang ingin dihapuskan adalah `nama_item` yang sudah terdaftar di pemesanan sebelumnya.
 ![delete()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/6793c7a4-b7a9-479f-8f8c-03b1980fd8ad)
 ![delete() output](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/f527accd-7a7b-4137-bbdf-7a924e065e8a)
-
 
 ### Test 3: reset_transaction()
 Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan.
@@ -70,11 +67,8 @@ Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus di
 ![88d2953e-9810-44fd-8079-f9ccbdf82d5e](https://user-images.githubusercontent.com/24706517/210151025-119c5f17-9b46-4753-9791-073efe76f673.png)
 ![b0120508-12f2-4a94-a756-8b575d4fc43c](https://user-images.githubusercontent.com/24706517/210151035-85c815ce-e420-4000-8891-e1407219fa50.png)
 
-
-### Test 5: update_item_name()
-Item yang ditambahkan adalah sebagai berikut:
-- Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
-Customer ingin mengganti nama **Ayam Goreng** yang terlanjur ditambahkan menggunakan metode `update_item_name()` sehingga nama item tersebut menjadi **Ayam Goreng Balado**
+### Test 5: update_nama()
+Customer ingin mengganti nama **celana** yang terlanjur ditambahkan menggunakan metode `update_name()` sehingga nama item tersebut menjadi **kaos**
 
 **Output:**
 ![f97c103c-8ef9-4151-bb91-f0433c0b7d87](https://user-images.githubusercontent.com/24706517/210151089-3ff9bcd4-6b70-4eeb-a132-8516163b8d73.png)
