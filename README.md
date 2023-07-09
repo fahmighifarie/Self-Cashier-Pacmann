@@ -69,11 +69,8 @@ Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus di
 
 ### Test 5: update_nama()
 Customer ingin mengganti nama **celana** yang terlanjur ditambahkan menggunakan metode `update_name()` sehingga nama item tersebut menjadi **kaos**
-
-**Output:**
-![f97c103c-8ef9-4151-bb91-f0433c0b7d87](https://user-images.githubusercontent.com/24706517/210151089-3ff9bcd4-6b70-4eeb-a132-8516163b8d73.png)
-_Setelah nama diupdate_
-![aa4e06d1-295b-4094-ad3f-3b1d522b8d10](https://user-images.githubusercontent.com/24706517/210151096-a6526741-3654-48ed-8f8b-03592630462a.png)
+![update_nama()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/e52d33ae-5c8d-4eb7-86e2-58a197cb2f1a)
+![ss_update_nama()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/a400f635-6d71-4e05-9407-028d077ed760)
 
 
 ### Test 6: update_jumlah()
