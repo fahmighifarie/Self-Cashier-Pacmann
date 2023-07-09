@@ -85,7 +85,7 @@ _Setelah qty diupdate_
 ![df029b88-1602-440c-85b8-567e5a8f6724](https://user-images.githubusercontent.com/24706517/210151112-0cdbbe87-1dad-491e-8add-1dc2558a3ee7.png)
 
 ### Test 7: update_item_price()
-Customer ingin mengganti harga per item dari **Ayam Goreng Balado** yang sebelumnya 20000 menjadi 25000 per item-nya dengan metode `update_item_price()`.
+Customer ingin mengganti harga per item dari **kaos** yang sebelumnya 160000 menjadi 75000 per item-nya dengan metode `update_harga()`.
 
 **Output**:
 ![df029b88-1602-440c-85b8-567e5a8f6724](https://user-images.githubusercontent.com/24706517/210151119-8ff07d98-9a3e-4898-8c3d-340e39dc7226.png)
