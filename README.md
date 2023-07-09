@@ -17,7 +17,7 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 - Membuat fungsi `harga_total` untuk menghitung total semua belanja
 
 ## Flowchart
-https://user-images.githubusercontent.com/68582818/252145243-958e1d18-0224-4ec4-b36a-748d5260b563.png
+![Flowchart Diagram](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/958e1d18-0224-4ec4-b36a-748d5260b563)
 
 ## Penjelasan Fungsi
 Semua fungsi berikut terdapat di dalam class bernama `Transaction` pada file `main.py`:
