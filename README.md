@@ -50,11 +50,9 @@ Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditamb
 ![delete()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/6793c7a4-b7a9-479f-8f8c-03b1980fd8ad)
 ![delete() output](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/f527accd-7a7b-4137-bbdf-7a924e065e8a)
 
-### Test 3: reset_transaction()
-Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan.
+### Test 3: reset()
+untuk membatalkan semua pesanan dapat menggunakan metoda `reset()`.
 
-**Output:**
-![968e3200-3384-4b00-908c-408cdf120261](https://user-images.githubusercontent.com/24706517/210151004-7595102c-2295-4c95-aa2b-d371ee05f86b.png)
 
 
 ### Test 4: harga_total()
