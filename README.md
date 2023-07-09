@@ -80,10 +80,7 @@ Customer ingin mengganti Quantity dari **kaos** yang sebelumnya 1 buah menjadi 2
 ![update_jumlah()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/6472933a-608b-48bb-9fa4-74ed1188bb14)
 ![ss_update)jumlah()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/34686eda-7667-4322-8355-dc780610e53e)
 
-**Output:**
-![3a2f22d7-7f76-4bf0-8ef9-886f9d411e75](https://user-images.githubusercontent.com/24706517/210151107-ad15c629-ee50-4117-81b1-71a114647466.png)
-_Setelah qty diupdate_
-![df029b88-1602-440c-85b8-567e5a8f6724](https://user-images.githubusercontent.com/24706517/210151112-0cdbbe87-1dad-491e-8add-1dc2558a3ee7.png)
+
 
 ### Test 7: update_harga()
 Customer ingin mengganti harga per item dari **kaos** yang sebelumnya 160000 menjadi 75000 per item-nya dengan metode `update_harga()`.
