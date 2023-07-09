@@ -79,6 +79,9 @@ _Setelah nama diupdate_
 ### Test 6: update_jumlah()
 Customer ingin mengganti Quantity dari **kaos** yang sebelumnya 1 buah menjadi 2 buah dengan metode `update_jumlah()`
 
+![update_jumlah()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/6472933a-608b-48bb-9fa4-74ed1188bb14)
+![ss_update)jumlah()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/34686eda-7667-4322-8355-dc780610e53e)
+
 **Output:**
 ![3a2f22d7-7f76-4bf0-8ef9-886f9d411e75](https://user-images.githubusercontent.com/24706517/210151107-ad15c629-ee50-4117-81b1-71a114647466.png)
 _Setelah qty diupdate_
@@ -90,12 +93,6 @@ Customer ingin mengganti harga per item dari **kaos** yang sebelumnya 160000 men
 ![update_harga()](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/a6371a5d-bc33-4735-9b68-8083fce5bca5)
 ![update_harga() ss](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/60c3c120-7c94-496e-9d80-4381c25398e8)
 
-
-
-**Output**:
-![df029b88-1602-440c-85b8-567e5a8f6724](https://user-images.githubusercontent.com/24706517/210151119-8ff07d98-9a3e-4898-8c3d-340e39dc7226.png)
-_Setelah harga diupdate_
-![21169f22-9f74-4902-a162-dc2d7ddb1a69](https://user-images.githubusercontent.com/24706517/210151124-e7e08787-210d-4372-a462-c21b977b6e17.png)
 
 
 ## Kesimpulan
