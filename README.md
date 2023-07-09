@@ -76,8 +76,8 @@ _Setelah nama diupdate_
 ![aa4e06d1-295b-4094-ad3f-3b1d522b8d10](https://user-images.githubusercontent.com/24706517/210151096-a6526741-3654-48ed-8f8b-03592630462a.png)
 
 
-### Test 6: update_item_qty()
-Customer ingin mengganti Quantity dari **Ayam Goreng Balado** yang sebelumnya 2 buah menjadi 10 buah dengan metode `update_item_qty()`
+### Test 6: update_jumlah()
+Customer ingin mengganti Quantity dari **kaos** yang sebelumnya 1 buah menjadi 2 buah dengan metode `update_jumlah()`
 
 **Output:**
 ![3a2f22d7-7f76-4bf0-8ef9-886f9d411e75](https://user-images.githubusercontent.com/24706517/210151107-ad15c629-ee50-4117-81b1-71a114647466.png)
