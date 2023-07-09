@@ -5,7 +5,7 @@ Fahmi Ghifarie
 Sistem kasir mandiri ini dibuat untuk memenuhi tugas akhir dalam kelas Python I dan Python II dari Pacmann. 
 Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemilik toko yang dimana ingin mengurangi kekeliruan para kasir yang menghitung pembayaran secara manual karena kecerobohan ini disebkan beberapa hal yang pertama adalah kurangnya jumlah karyawan yang dapat meng-handle transaksi kedua semakin lama karyawan bekerja biasanya konsentrasi para karyawan akan menurun. Maka dari itu dibuatkan sistem kasir mandiri ini agar pembeli dapat secara langsung menambahkan item yang dibeli, mengubah harga item yang dibeli dan mengubah jumlah item yang dibeli juga sekaligus dapat menjalankan total biaya yang harus didapatkan dan beberapa diskon menarik di dalamnya.
 
-# Fitur/Requirements
+## Fitur/Requirements
 - Class `Transaksi_123` untuk menghimpun seluruh kegiatan kasir mandiri
 - Membuat fungsi `tambah_barang` untuk menambahkan barang
 - Membuat fungsi `update_nama` untuk mengganti nama barang
@@ -19,7 +19,7 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 ## Flowchart
 ![Flowchart Diagram](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/958e1d18-0224-4ec4-b36a-748d5260b563)
 
-#### Method
+### Method
 - `__init__(self)`. Menginisiasi variable utama pada sebuah class. Dalam hal ini adalah variable `self.item = {'Nama Item': [], 'Jumlah': [], 'Harga Item': [],"Harga": []}` yang dinisiasi.
 - `tambah_barang()`. Fungsi ini dipanggil untuk menambahkan barang dimana setiap masukan dihimpun di suatu dictionary -> `self.item = {'Nama Item': [], 'Jumlah': [], 'Harga Item': [],"Harga": []}`
 - `update_nama()`. Fungsi ini dipanggil untuk mengganti `nama_item` dimana `nama_item` yang akan diganti harus diinput terlebih dulu lalu akan keluar perintah input untuk memasukan `nama_item_baru`.
@@ -40,12 +40,8 @@ Pengujian dijalankan pada modul `testcase.py` dimana pada modul `testcase.py` in
 
 ![contoh_pengujian](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/99090a14-4cda-4fa4-8648-bfe1635e1b09)
 
-### Test 1: add_item()
-Customer ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
-- Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
-- Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
-
-**Output:**
+### Test 1: tambang_barang()
+Customer ingin menambahkan tiga item baru menggunakan method `tambang_barang()`. 
 ![af6367f8-fc1b-4812-8737-61371bd02cab](https://user-images.githubusercontent.com/24706517/210150963-e800e75a-c65e-4387-816d-628d746e6045.png)
 ![88d2953e-9810-44fd-8079-f9ccbdf82d5e](https://user-images.githubusercontent.com/24706517/210150970-996887d5-7136-4b6a-a874-3aad202ece9b.png)
 
