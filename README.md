@@ -7,20 +7,20 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 
 # Fitur/Requirements
 - Class `Transaksi_123` untuk menghimpun seluruh kegiatan kasir mandiri
-- Membuat fungsi `tambah_barang` untuk menambahkan barang
-- Membuat fungsi `update_nama` untuk mengganti nama barang
-- Membuat fungsi `update_harga` untuk mengganti harga barang
-- Membuat fungsi `update_jumlah` untuk mengganti jumlah barang
-- Membuat fungsi `delete` untuk menghapus barang
-- Membuat fungsi `reset` untuk me-reset transaksi
-- Membuat fungsi `check_out` untuk menampilkan belanja
-- Membuat fungsi `harga_total` untuk menghitung total semua belanja
+- Membuat method `tambah_barang` untuk menambahkan barang
+- Membuat method `update_nama` untuk mengganti nama barang
+- Membuat method `update_harga` untuk mengganti harga barang
+- Membuat method `update_jumlah` untuk mengganti jumlah barang
+- Membuat method `delete` untuk menghapus barang
+- Membuat method `reset` untuk me-reset transaksi
+- Membuat method `check_out` untuk menampilkan belanja
+- Membuat method `harga_total` untuk menghitung total semua belanja
 
 ## Flowchart
 ![Flowchart Diagram](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/958e1d18-0224-4ec4-b36a-748d5260b563)
 
 ## Penjelasan Fungsi
-Semua fungsi berikut terdapat di dalam class bernama `Transaction` pada file `main.py`:
+Semua fungsi berikut terdapat di dalam class bernama `Transaction_123` pada file `main.py`:
 
 #### Method
 - `add_item`. Menambahkan barang dengan format `add_item([item_name, quantity, price_per_item])` ke dalam variable `items` di dalam class. Contoh: `add_item(['Ayam', 12, 15_000])`
