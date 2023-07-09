@@ -38,6 +38,8 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 ## Contoh Pengujian
 Pengujian dijalankan pada modul `testcase.py` dimana pada modul `testcase.py` ini memanggil modul `modulkasir.py`. Lalu diboatkan object menggunakan `transaksi1 = Transaksi_123()`. Untuk contoh dapat dilihat sebagai berikut: 
 
+![contoh_pengujian](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/99090a14-4cda-4fa4-8648-bfe1635e1b09)
+
 ### Test 1: add_item()
 Customer ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
 - Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
