@@ -1,33 +1,3 @@
-Skip to content
-nayakayp
-/
-super-cashier
-
-Type / to search
-Command palette
-Create new...
-Issues
-Pull requests
-You have no unread notifications
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Commit
-Browse the repository at this point in the history
-Update README.md
- main
-@nayakayp
-nayakayp committed on Jan 1, 2023 
-1 parent 5c68441
-commit c07ef9e
-Showing 1 changed file with 120 additions and 2 deletions.
- 122 changes: 120 additions & 2 deletions122  
-README.md
-@@ -1,2 +1,120 @@
 # super-cashier
 Python Project Pacmann
 # Tentang
