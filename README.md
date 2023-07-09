@@ -19,9 +19,6 @@ Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemili
 ## Flowchart
 ![Flowchart Diagram](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/958e1d18-0224-4ec4-b36a-748d5260b563)
 
-## Penjelasan Fungsi
-Semua fungsi berikut terdapat di dalam class bernama `Transaction_123` pada file `main.py`:
-
 #### Method
 - `__init__(self)`. Menginisiasi variable utama pada sebuah class. Dalam hal ini adalah variable `self.item = {'Nama Item': [], 'Jumlah': [], 'Harga Item': [],"Harga": []}` yang dinisiasi.
 - `tambah_barang()`. Fungsi ini dipanggil untuk menambahkan barang dimana setiap masukan dihimpun di suatu dictionary -> `self.item = {'Nama Item': [], 'Jumlah': [], 'Harga Item': [],"Harga": []}`
@@ -33,11 +30,10 @@ Semua fungsi berikut terdapat di dalam class bernama `Transaction_123` pada file
 - `check_out()`. Menampilkan semua item yang sudah dimasukan ke `self.item` tujuannya untuk mengecek ulang item yang sudah dibeli 
 - `harga_total`. Menampilkan seluruh barang beserta total harga tiap barang, discount, dan total setelah diskon.
 - `__init__`. Menginisiasi variable utama pada sebuah class. Dalam hal ini adalah variable `items` yang dinisiasi.
-- `calculate_discount`. Menghitung jika total keseluruhan harga barang memenuhi syarat diskon. Syarat diskon adalah sebagai berikut:
+- Ketentuan harga diskon adalah sebagai berikut:
 	1. Jika di atas Rp 200.000 diskon sebesar 5%
 	2. Jika di atas Rp 300.000 diskon sebesar 8%
 	3. Jika di atas Rp 500.000 diskon sebesar 10%
-- `find_items_index`. Mencari ada di index ke berapa sebuah nama barang pada barang-barang yang sudah ditambahkan.
 
 ## Demonstrasi Code
 Membuat Customer1 dengan code `Customer1 = Transaction()`
