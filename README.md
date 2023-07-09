@@ -1,12 +1,11 @@
 # PYTHON PROJECT KASIR MANDIRI
 Fahmi Ghifarie
-# Tentang
-Self-service cashier sederhana dengan menggunakan bahasa pemrograman Python.
 
 ## Latar Belakang
 Sistem kasir mandiri ini dibuat untuk memenuhi tugas akhir dalam kelas Python I dan Python II dari Pacmann. 
+Ide membuat project kasir mandiri diri dikarenakan kebutuhan dari seorang pemilik toko yang dimana ingin mengurangi kekeliruan para kasir yang menghitung pembayaran secara manual karena kecerobohan ini disebkan beberapa hal yang pertama adalah kurangnya jumlah karyawan yang dapat meng-handle transaksi kedua semakin lama karyawan bekerja biasanya konsentrasi para karyawan akan menurun. Maka dari itu dibuatkan sistem kasir mandiri ini agar pembeli dapat secara langsung menambahkan item yang dibeli, mengubah harga item yang dibeli dan mengubah jumlah item yang dibeli juga sekaligus dapat menjalankan total biaya yang harus didapatkan dan beberapa diskon menarik di dalamnya.
 
-## Requirements/Objective
+# Fitur/Requirements
 - Membuat proses menyelesaikan permasalahan kasir self-service untuk membantu pedagang berjualan.
 - Membuat proses untuk `menambahkan barang` belanjaan.
 - Membuat proses untuk `menghapus barang` belanjaan.
