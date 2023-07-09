@@ -50,8 +50,7 @@ Customer ingin menambahkan tiga item baru menggunakan method `tambang_barang()`.
 ### Test 2: delete_item()
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggukan method `delete()` untuk menghapus item. Item yang ingin dihapuskan adalah `nama_item` yang sudah terdaftar di pemesanan sebelumnya.
 
-**Output:**
-![76f8318e-6382-4730-983e-f7a965e91609](https://user-images.githubusercontent.com/24706517/210150989-d088f6dc-b84a-4d03-a4e0-58fcba2efe8c.png)
+![delete() output](https://github.com/fahmighifarie/Self-Cashier-Pacmann/assets/68582818/f527accd-7a7b-4137-bbdf-7a924e065e8a)
 
 
 ### Test 3: reset_transaction()
