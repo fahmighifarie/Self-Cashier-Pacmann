@@ -97,5 +97,7 @@ Customer ingin mmemastikan pesanan yang dibeli dengan dikeluarkan tampilan denga
 - Keseluruhan fitur tersebut dapat memudahkan dan mempercepat pembeli untuk membeli barangnya secara mandiri.
 
 ## Future Work
-- Membuat GUI (_Graphical User Interface_)
+- Membuat GUI (_Graphical User Interface_) agar tampilan lebih bagus dan interaktif
+- Membuat fitur yang interaktif sehingga program tidak hanya dijalankan melalui object
+- Dalam proses perubahan harga dan jumlah seharusnya otomatis mengubah nilai harga item
 - Membuat sistem pembayaran yang terintegrasi dengan sistem kasir
